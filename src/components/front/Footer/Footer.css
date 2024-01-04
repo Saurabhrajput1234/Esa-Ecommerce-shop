@@ -1,0 +1,49 @@
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #4e6e42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 26px;
+}
+.Map{
+    height: 270px;
+    width: 50%;
+    border: 0;
+    background-color: rgb(46, 47, 49);
+    border-radius: 26px;
+}
+.footer-icons {
+    height: 300px;
+    width: 40%;
+    padding-left: 10px;
+   
+
+}
+.footer-text{
+    height: 200px;
+    width: 100%;
+}
+.icon img{
+    padding: 10px;
+}
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(48, 58, 58) ;
+    border-top: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

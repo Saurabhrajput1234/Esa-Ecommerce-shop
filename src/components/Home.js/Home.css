@@ -1,0 +1,14 @@
+
+.Home-page img{
+    height: 100%;
+    width: 100vw;
+    position: sticky;
+    opacity: 40%;
+}
+.Home-page h1 {
+    position: fixed;
+    font-family: calibiri;
+    font-size: 4rem;
+    color: #d35f5f;
+    padding-left: 29px;
+  }

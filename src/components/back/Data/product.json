@@ -1,0 +1,125 @@
+
+  [
+      {
+        "id": 1,
+        "name": "kurta",
+        "image": "https://via.placeholder.com/150?text=T-Shirt",
+        "price": 19.99
+      },
+      {
+        "id": 2,
+        "name": "Shirt",
+        "image": "https://via.placeholder.com/150?text=Polo+Shirt",
+        "price": 24.99
+      },
+      {
+        "id": 3,
+        "name": "Jeans",
+        "image": "https://via.placeholder.com/150?text=Jeans",
+        "price": 39.99
+      },
+      {
+        "id": 4,
+        "name": "Shirt",
+        "image": "https://via.placeholder.com/150?text=Dress+Shirt",
+        "price": 29.99
+      },
+      {
+        "id": 5,
+        "name": "Hoodie",
+        "image": "https://via.placeholder.com/150?text=Hoodie",
+        "price": 34.99
+      },
+      {
+        "id": 6,
+        "name": "Shorts",
+        "image": "https://via.placeholder.com/150?text=Shorts",
+        "price": 21.99
+      },
+      {
+        "id": 7,
+        "name": "Sweater",
+        "image": "https://via.placeholder.com/150?text=Sweater",
+        "price": 45.99
+      },
+      {
+        "id": 8,
+        "name": "Jacket",
+        "image": "https://via.placeholder.com/150?text=Jacket",
+        "price": 59.99
+      },
+      {
+        "id": 9,
+        "name": "Chinos",
+        "image": "https://via.placeholder.com/150?text=Chinos",
+        "price": 36.99
+      },
+      {
+        "id": 10,
+        "name": "Sweatshirt",
+        "image": "https://via.placeholder.com/150?text=Sweatshirt",
+        "price": 27.99
+      },
+      {
+        "id": 11,
+        "name": "Casual Shirt",
+        "image": "https://via.placeholder.com/150?text=Casual+Shirt",
+        "price": 22.99
+      },
+      {
+        "id": 12,
+        "name": "Suit",
+        "image": "https://via.placeholder.com/150?text=Suit",
+        "price": 159.99
+      },
+      {
+        "id": 13,
+        "name": "Tie",
+        "image": "https://via.placeholder.com/150?text=Tie",
+        "price": 14.99
+      },
+      {
+        "id": 14,
+        "name": "Socks",
+        "image": "https://via.placeholder.com/150?text=Socks",
+        "price": 6.99
+      },
+      {
+        "id": 15,
+        "name": "Underwear",
+        "image": "https://via.placeholder.com/150?text=Underwear",
+        "price": 9.99
+      },
+      {
+        "id": 16,
+        "name": "Pajamas",
+        "image": "https://via.placeholder.com/150?text=Pajamas",
+        "price": 29.99
+      },
+      {
+        "id": 17,
+        "name": "Hat",
+        "image": "https://via.placeholder.com/150?text=Hat",
+        "price": 12.99
+      },
+      {
+        "id": 18,
+        "name": "Belt",
+        "image": "https://via.placeholder.com/150?text=Belt",
+        "price": 17.99
+      },
+      {
+        "id": 19,
+        "name": "Sunglasses",
+        "image": "https://via.placeholder.com/150?text=Sunglasses",
+        "price": 25.99
+      },
+      {
+        "id": 20,
+        "name": "Sneakers",
+        "image": "https://via.placeholder.com/150?text=Sneakers",
+        "price": 59.99
+      }
+    ]
+    
+  
