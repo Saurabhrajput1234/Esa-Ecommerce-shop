@@ -1,56 +1,41 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./Header.css";
-import SearchData from '../../back/Data/SearchData';
+import { useState } from 'react';
+// import SearchData from '../../back/Data/SearchData';
 
-const Header = (props) => {
-  return (<div className='header'>
-    <div>
-        <h1>
-            <Link to="/" className='logo'>
+const Header = (props) => 
+{
+    const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  
+    const toggleNavbar = () => {
+      setIsNavbarOpen(!isNavbarOpen);
+    };
+  
+    return (
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div ><Link to="/" className="navbar-logo">
                 E-Sa
-            </Link>
-        </h1>
-    </div>
-    <div className="header-links">
-        <ul>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-        </ul>
-        <ul>
-            {/* <li>
-            <SearchData/>
-            </li> */}
-        </ul>
-        
-        <ul>
-            <li>
-                <Link to="/Products">Product</Link>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <Link to="/signup">Signup</Link>
-            </li>
-        </ul>
-        <ul>
-            {/* <li>
-                <Link to="/cart" className='cart'><i className='fas fa-shopping-cart'/>
-                <span className='cart-length'>{props.cartItem.length === 0 ? "": props.cartItem.length}</span></Link>
-            </li> */}
-            <li>
-            
-                <div  className='/cart' onClick={props.onShow} ><i className='fas fa-shopping-cart'/>
+            </Link></div>
+          <div className={`navbar-links ${isNavbarOpen ? 'active' : ''}`}>
+            <a href="/">Home</a>
+            <a href="/Products">Product</a>
+            <a href="/signup">Signup</a>
+            <div  className='/cart' onClick={props.onShow} ><i className='fas fa-shopping-cart addtoCart'/>
                 <span className='cart-length'>{props.cartItem.length === 0 ? "": props.cartItem.length}</span>
                 
                 </div>
-            </li>
-        </ul>
-
-    </div>
-    </div>
-  )
-}
+            
+          </div>
+          <div className="navbar-toggle" onClick={toggleNavbar}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    );
+  };
 
 export default Header

@@ -1,7 +1,5 @@
-
-
-.modal{
- 
+/* Default styles for larger screens */
+.modal {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -10,4 +8,11 @@
   padding-top: 66px;
 }
 
-
+/* Media query for screens with a width of 360 pixels or less (e.g., mobile devices) */
+@media (max-width: 360px) {
+  .modal {
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; /* Adjust the top padding for better alignment */
+  }
+}

@@ -1,14 +1,30 @@
-
-.Home-page img{
+/* Default styles for larger screens */
+.Home-page img {
     height: 100%;
     width: 100vw;
     position: sticky;
     opacity: 40%;
 }
+
 .Home-page h1 {
     position: fixed;
-    font-family: calibiri;
+    font-family: 'Calibri', sans-serif;
     font-size: 4rem;
     color: #d35f5f;
     padding-left: 29px;
-  }
+    margin: 86px;
+}
+
+/* Media query for screens with a width of 360 pixels or less (e.g., mobile devices) */
+@media (max-width: 360px) {
+    .Home-page img {
+        width: 100%; /* Adjust the width for better responsiveness */
+        opacity: 100%; /* Adjust the opacity for better visibility */
+    }
+
+    .Home-page h1 {
+        font-size: 2rem; /* Adjust the font size for better readability on smaller screens */
+        padding-left: 10px;
+        margin: 86px; /* Adjust the padding for better spacing on smaller screens */
+    }
+}

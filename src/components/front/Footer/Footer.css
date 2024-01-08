@@ -1,50 +1,68 @@
-.footer{
+
+.footer {
     height: 300px;
     width: 100%;
     background-color: #4e6e42;
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
-iframe{
+
+iframe {
     height: 100%;
     width: 100%;
     border-radius: 26px;
 }
-.Map{
+
+.Map {
     height: 270px;
-    width: 50%;
+    width: 100%; 
     border: 0;
     background-color: rgb(46, 47, 49);
     border-radius: 26px;
 }
-.footer-icons {
-    height: 300px;
-    width: 40%;
-    padding-left: 10px;
-   
 
+.footer-icons {
+    height: auto; 
+    width: 100%; 
+    padding: 10px; 
 }
-.footer-text{
-    height: 200px;
+
+.footer-text {
+    height: auto; 
     width: 100%;
 }
-.icon img{
+
+.icon img {
     padding: 10px;
 }
-.icon{
+
+.icon {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.footer-bottom{
+
+.footer-bottom {
     height: 70px;
     width: 100%;
-    background-color: rgb(42 64 52) ;
+    background-color: rgb(42 64 52);
     border-top: 1px solid rgb(78, 76, 76);
     align-items: center;
     justify-content: center;
     color: whitesmoke;
     display: flex;
+}
+
+
+@media (max-width: 360px) {
+    .Map,
+    .footer-icons,
+    .footer-text {
+        width: 100%; 
+    }
+    
+    .footer-icons {
+        padding: 0; 
+    }
 }
